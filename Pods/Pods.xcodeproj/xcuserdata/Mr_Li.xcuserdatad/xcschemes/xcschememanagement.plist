@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CAAnimationBlocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>LMAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RBBAnimation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0C0FCBF24DF4DBDF2E6C21B2831A4CA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>580787BAE4AF0786626C42AAE3E9CE14</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C603EFE4AB12127AFC95861855B07DD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDC4981285617666BFB83C856ED23F94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
