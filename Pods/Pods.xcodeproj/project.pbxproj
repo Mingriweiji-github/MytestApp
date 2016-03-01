@@ -7,59 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		088929050CB8AD4B15B6783D564647E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
-		0A9FF07B4FBFC26CEDF56DA09737A21C /* LMEmbeddedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7901D4D1DAAD39634CA8F2B5225FACDB /* LMEmbeddedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ADE87483A4DA93EB970E4C52FC0F1C7 /* RBBEasingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 811971636C691CD96BB7206632FA2860 /* RBBEasingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B57CD93239ECAF6F3EE3B8843EBC206 /* LMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B8B32C0871E7628A2EC68699C85EB9 /* LMNavigationController.m */; };
-		20009A1D67F86DDBC9E174A2C2B6248C /* LMModalItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C07DA3AC31B7D4292BCC8FFA8CF8B789 /* LMModalItemTableViewCell.m */; };
-		21BC03E32E2C933723CD46595FE9670A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		2494D4B99DEF892989224D2193E5AC5C /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B08C1F49166AEB43C7FA4A250BDE14C /* CAAnimation+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2F5D0FF199BEBAC7E67B06E65E0E8A64 /* CAAnimationBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB9100910B31B05CB09B3604313FCF /* CAAnimationBlocks-dummy.m */; };
-		3501D8253CE20F73397DF8A7A1672C36 /* RBBCubicBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8B5D15136637834B5704703CE2A584 /* RBBCubicBezier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45BFE517EF83DB10822E615A56B93933 /* RBBCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3754662B467335A5308780866DF9B7 /* RBBCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58BF63AE84291FD94F3BB68C250873D3 /* RBBAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6891B61510429AC81D35D85A095A733F /* RBBAnimation-dummy.m */; };
-		5CBE49E3AE571DEDE45B030110347AC9 /* RBBLinearInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B88259220B73ECA1CCC34A89D44E29D /* RBBLinearInterpolation.m */; };
-		69A7F7847D9BDEEF058D94C13DF2CC07 /* RBBTweenAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 832504C405D6770A9503C501C0E92B03 /* RBBTweenAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7530EDB65987AFFA7C15DD9559DC6D1A /* CALayer+ModalAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B91728C98DCE9482B67616E4AFEAD610 /* CALayer+ModalAlert.m */; };
-		7987631F3FAC201B8A5066B3043EE19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		82B392049328E4465D31FAB44AA08A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		82B7B011573741FA3BD20CCA50F27C28 /* CAAnimation+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A29BDEE78DAC8458DE52C6DE8C748561 /* CAAnimation+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		833910B2C9E0E3B3865D66D0AE553673 /* LMNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C407C781CDCFAB933AF596DDE95F860 /* LMNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C684E011DFAA5C7B693EE8C3BF7F312 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		9650C52F58047286B387CC68B092F2FA /* LMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5628377F9DB3EA6C738E5A31F37DDE4 /* LMAlertView.m */; };
-		976273D6676976991264476369A12D85 /* RBBSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB56F02656F941C6B7EEE4CFE9201005 /* RBBSpringAnimation.m */; };
-		A3228D565F30C77A88F3F2EAD1488F26 /* RBBEasingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2996158C3DBE3155E3670738DAD57 /* RBBEasingFunction.m */; };
-		A8523C9967E1C47B0317FE09AE77077F /* LMModalSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D20C831D3615824646C67C57E019C0 /* LMModalSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFC81B5B1AD1348B6A12E6F84B355A9A /* LMModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FCB469C5AFB7988B20DED66B47A63 /* LMModalSegue.m */; };
-		C1C91A9DAF079F24E277164215957B4F /* RBBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF3863292CBCF7757CE0BE7A4BDCAFD /* RBBAnimation.m */; };
-		C22142EBA07D4844F7D02C008631BECF /* RBBCubicBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = C0344C7A0CE72475AA7E279B5A4C97C0 /* RBBCubicBezier.m */; };
-		C431EFDC93E30BCB60F675D80377C7D5 /* LMModalItemTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA2DC10CA7357AA6D25189D79BA27F2 /* LMModalItemTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C55D552145721BBEE177236380045C93 /* CALayer+ModalAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B34B2D40F35D157B3B61017B83DE2 /* CALayer+ModalAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C62E8ABA0C04555F21B283DD767D2A92 /* RBBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9998A5525AAADA9D19697715EDA025FE /* RBBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7086816E2E2263CEE267E642DCDC3F2 /* RBBSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 391AB292E0AC46D9F024581503F12268 /* RBBSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB77CDCA75EEF65011D387F4395454BD /* RBBLinearInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F1D5D05D9A79ED193557583F79C318 /* RBBLinearInterpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCD16FEA1DEA426B2502BEE8DF65F1B4 /* LMEmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82D38D83F051AA03F62995B651F2F43 /* LMEmbeddedViewController.m */; };
-		D8670657BA5BA02C0E9F938B5EA3D389 /* RBBBlockBasedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 6583B489526E9A8E693F7FBE5B41E02F /* RBBBlockBasedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEA3F2A014F785B388176F66C4D386BE /* LMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C4E770CADAAC081A77AF61D9AD01B /* LMNavigationBar.m */; };
-		E6AACE7521BE16A2A27BBFE161200E4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
-		E8375E8C7F7883C0A3E90C64C99AF174 /* LMAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C649C83AFF89130901FB937B24ED7 /* LMAlertView-dummy.m */; };
-		E9061545BAC5EDC693E14DF9349C0D60 /* LMNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEC5325ECF39445CF2E0486BC15C75D /* LMNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC7634F0AB2F9CFAE1638576FA9CD41E /* RBBCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65698B927BF7D7B30798D3F2CE50735B /* RBBCustomAnimation.m */; };
-		ED147ECA46F80DCA2EDE9744DE35E1A0 /* LMAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = B468B7643A91AC3198F2C51229BA0C07 /* LMAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F38EEFB6FDD90298AD3F3A302D74BC33 /* RBBTweenAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C55495ACE9238B9C21AFA272DEF4A66 /* RBBTweenAnimation.m */; };
-		F798B65F01687F28FCB857D75A9D9BD7 /* RBBBlockBasedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2BE5E55768DA52C8D7F52BCAA90D0 /* RBBBlockBasedArray.m */; };
-		FFEA56BD838B5014AD50D332E2234498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		088929050CB8AD4B15B6783D564647E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
+		0A9FF07B4FBFC26CEDF56DA09737A21C /* LMEmbeddedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D136A7F70DC145E3AE61DD89E3D80556 /* LMEmbeddedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ADE87483A4DA93EB970E4C52FC0F1C7 /* RBBEasingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 572C32EC0DEFB23E231419E6C5AADC90 /* RBBEasingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B57CD93239ECAF6F3EE3B8843EBC206 /* LMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4855C2E14D3C71CD5218228802004223 /* LMNavigationController.m */; };
+		20009A1D67F86DDBC9E174A2C2B6248C /* LMModalItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6674F812B7ECC8C5D6605AFA16538EC /* LMModalItemTableViewCell.m */; };
+		21BC03E32E2C933723CD46595FE9670A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		2494D4B99DEF892989224D2193E5AC5C /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C51814678BE564D85DDA62C4FDD7B /* CAAnimation+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2F5D0FF199BEBAC7E67B06E65E0E8A64 /* CAAnimationBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB83188990DBF67A5AFACF04A8AF635 /* CAAnimationBlocks-dummy.m */; };
+		2F6540155CD3B8C24156AD9D843F8CCE /* EDStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 573DA2C6AF498809879DEF3E5B5722CE /* EDStarRating.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34ACF86F40E4B163D644176CD593AA3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		3501D8253CE20F73397DF8A7A1672C36 /* RBBCubicBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C5EA821F3A75B63324A73077236F74 /* RBBCubicBezier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B61C6F84808A3CB6AAA6115905E08C /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = A36DB9473EFB4BC673CBD65196CECBA5 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AD38B18864D882D52705F0E53C98879 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9CF49D6172308F12B734182BA0E58C /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE068802AEDE3E290985812A3EF71BA /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 14873EC49D2B0755C61EBCABB20C9141 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45BFE517EF83DB10822E615A56B93933 /* RBBCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C17E38B871B6337A290014FBAA0E5098 /* RBBCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A4CC51DCFBF6B8F7303848D93A1378 /* EDStarRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E891529058ED8A8A5246D2132CAB1C /* EDStarRating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58BF63AE84291FD94F3BB68C250873D3 /* RBBAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD027A2168CF5C76B637A461BEEE7205 /* RBBAnimation-dummy.m */; };
+		5CBE49E3AE571DEDE45B030110347AC9 /* RBBLinearInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22871CF6ED8D3872E8D42C6FE638B9F0 /* RBBLinearInterpolation.m */; };
+		62D91FBC7898618C03EE5F60F71F7D47 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
+		64CA88FC201195F8BA8A8DB5F9F98641 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF590892A8E06DD15F922B59419989A4 /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69A7F7847D9BDEEF058D94C13DF2CC07 /* RBBTweenAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A3B15BA620544074FFAA8AA39BBEE4 /* RBBTweenAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE60D996765107A79D5023006D5C5A9 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFED9AAE16FE883DCA1955019ADC601 /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6EA779A4AB51D72DEDABA9001F8A5838 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		7530EDB65987AFFA7C15DD9559DC6D1A /* CALayer+ModalAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A34EA77FDB639CA0F0521E3C70EDA5D6 /* CALayer+ModalAlert.m */; };
+		7987631F3FAC201B8A5066B3043EE19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		7EA4EF6C3CE7AB9DACB8D5F9BEB287C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */; };
+		82B392049328E4465D31FAB44AA08A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		82B7B011573741FA3BD20CCA50F27C28 /* CAAnimation+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D88A89D447EDEE944FAF1025C98414 /* CAAnimation+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833910B2C9E0E3B3865D66D0AE553673 /* LMNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 86672911CF76026FF9FFB22A8E679750 /* LMNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5ABA338F268AE0E0CB54B61A72C39C /* EDStarRating-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A9F22B6DC9758BCFF5E6D6EA760F07 /* EDStarRating-dummy.m */; };
+		9650C52F58047286B387CC68B092F2FA /* LMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC03513E938248348D8244FC1FACAFA /* LMAlertView.m */; };
+		976273D6676976991264476369A12D85 /* RBBSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E2A9E8E3D4CCA27B243596CB0D8AE2 /* RBBSpringAnimation.m */; };
+		A3228D565F30C77A88F3F2EAD1488F26 /* RBBEasingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = AC24EFDABE862C79B26C6F5A059991D5 /* RBBEasingFunction.m */; };
+		A8523C9967E1C47B0317FE09AE77077F /* LMModalSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = B927B07B5AE4C49333834B97ACEF8889 /* LMModalSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC81B5B1AD1348B6A12E6F84B355A9A /* LMModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 255B886EB8186A38761281B501AFFDBA /* LMModalSegue.m */; };
+		C1C91A9DAF079F24E277164215957B4F /* RBBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE415B6BAF8C52CE5869E6A06471E76C /* RBBAnimation.m */; };
+		C22142EBA07D4844F7D02C008631BECF /* RBBCubicBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = B76E913E6661EDEDB846FDAA25AABA78 /* RBBCubicBezier.m */; };
+		C431EFDC93E30BCB60F675D80377C7D5 /* LMModalItemTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D3314DD7CFBB10329B519763FC308DA3 /* LMModalItemTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55D552145721BBEE177236380045C93 /* CALayer+ModalAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 779C3B769ADB810B5BDBAFB04E9DE7C6 /* CALayer+ModalAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62A8B5FE2D089EA0A0C14CF1CC19D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		C62E8ABA0C04555F21B283DD767D2A92 /* RBBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CDCDA97F75FBA33D8D1994AF8BE718 /* RBBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7086816E2E2263CEE267E642DCDC3F2 /* RBBSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F95CF86D63C3E504B024A5FF242220A /* RBBSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8904505EB26D75CF9FC5E7A749D1F27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
+		CB77CDCA75EEF65011D387F4395454BD /* RBBLinearInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE76FEDB50540201AF6485A0ACABA21 /* RBBLinearInterpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD16FEA1DEA426B2502BEE8DF65F1B4 /* LMEmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F58CFB649F3019354F6EAFA18DD243 /* LMEmbeddedViewController.m */; };
+		D8670657BA5BA02C0E9F938B5EA3D389 /* RBBBlockBasedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC08C5D24D07A1DF32B138D3DB578E0 /* RBBBlockBasedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD780DEC31F2132C75D1294DDF14E51A /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 664127B05EAC83AC3E972C0D5967A35F /* WebViewJavascriptBridge-dummy.m */; };
+		DEA3F2A014F785B388176F66C4D386BE /* LMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD0C323371575D878DEA3EE681A6C2 /* LMNavigationBar.m */; };
+		E6AACE7521BE16A2A27BBFE161200E4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
+		E8375E8C7F7883C0A3E90C64C99AF174 /* LMAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89349087992E6DD5C6B72692B61E3028 /* LMAlertView-dummy.m */; };
+		E9061545BAC5EDC693E14DF9349C0D60 /* LMNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFE58312BF2D287CF8F4075C752AA10 /* LMNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D30CB304D5E98053482FC530B18F35 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E6BADA426925C675CAA90C08A49ABF /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC7634F0AB2F9CFAE1638576FA9CD41E /* RBBCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A75C1C5428BCB1EAC0D06FF0EC9A45 /* RBBCustomAnimation.m */; };
+		ED147ECA46F80DCA2EDE9744DE35E1A0 /* LMAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3326633A90CF8649382E3E1984D47D8 /* LMAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07E5E1590F302BAB78C97F0AD458265 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E38A918A5ECB36FF6EA3092336CBD3F /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F38EEFB6FDD90298AD3F3A302D74BC33 /* RBBTweenAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C6F48C76B3EEB3DF981042FE874CFD /* RBBTweenAnimation.m */; };
+		F5D031B3A99B3F466627D38712ADF8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		F798B65F01687F28FCB857D75A9D9BD7 /* RBBBlockBasedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C936DF49A15672234AF3D97D1E8182 /* RBBBlockBasedArray.m */; };
+		F8804F208BDD796E8513156FE7A79A2C /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7164F071EEBF3E7B2DF621768AFEC0F8 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		081713C45660E17864EDB433508286E3 /* PBXContainerItemProxy */ = {
+		25BF319E494E1A1A9EA47E8F80D914A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FDC4981285617666BFB83C856ED23F94;
-			remoteInfo = CAAnimationBlocks;
+			remoteGlobalIDString = F36DE44B3D71278FCE983F40C8E961BA;
+			remoteInfo = WebViewJavascriptBridge;
 		};
-		3A3DBCAD68F89515DB666F044619B8BB /* PBXContainerItemProxy */ = {
+		26BCFD611F4D2E797647D02A626A04C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C603EFE4AB12127AFC95861855B07DD5;
+			remoteInfo = RBBAnimation;
+		};
+		55D433CAC3DEAEB0774FBB306F04A546 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -80,71 +104,98 @@
 			remoteGlobalIDString = C603EFE4AB12127AFC95861855B07DD5;
 			remoteInfo = RBBAnimation;
 		};
-		E96CC17F070793A0429ADA0E27F39D32 /* PBXContainerItemProxy */ = {
+		EEA49099D87A8DB2D641EC22E69D4196 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C603EFE4AB12127AFC95861855B07DD5;
-			remoteInfo = RBBAnimation;
+			remoteGlobalIDString = FDC4981285617666BFB83C856ED23F94;
+			remoteInfo = CAAnimationBlocks;
+		};
+		FAF341F394BE8A5CC15908147190394A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BEE5F063D739BF8536958FD76629434;
+			remoteInfo = EDStarRating;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04C2996158C3DBE3155E3670738DAD57 /* RBBEasingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBEasingFunction.m; path = RBBAnimation/RBBEasingFunction.m; sourceTree = "<group>"; };
-		0B08C1F49166AEB43C7FA4A250BDE14C /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+Blocks.m"; path = "CAAnimationBlocks/CAAnimation+Blocks.m"; sourceTree = "<group>"; };
+		07DE516E34DF74761E258E06DF98BADF /* RBBAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBBAnimation.xcconfig; sourceTree = "<group>"; };
+		0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0EC08C5D24D07A1DF32B138D3DB578E0 /* RBBBlockBasedArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBBlockBasedArray.h; path = RBBAnimation/RBBBlockBasedArray.h; sourceTree = "<group>"; };
+		0F04BFB99F5BD303D348AAD8FCA5F692 /* EDStarRating-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EDStarRating-prefix.pch"; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		13B8B32C0871E7628A2EC68699C85EB9 /* LMNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMNavigationController.m; path = LMAlertView/LMNavigationController.m; sourceTree = "<group>"; };
-		13F1D5D05D9A79ED193557583F79C318 /* RBBLinearInterpolation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBLinearInterpolation.h; path = RBBAnimation/RBBLinearInterpolation.h; sourceTree = "<group>"; };
-		1F9DD9E8AF429234706B7E9D9FAC96EF /* libCAAnimationBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCAAnimationBlocks.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		14873EC49D2B0755C61EBCABB20C9141 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		18DD0C323371575D878DEA3EE681A6C2 /* LMNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMNavigationBar.m; path = LMAlertView/LMNavigationBar.m; sourceTree = "<group>"; };
+		1F8C51814678BE564D85DDA62C4FDD7B /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+Blocks.m"; path = "CAAnimationBlocks/CAAnimation+Blocks.m"; sourceTree = "<group>"; };
+		1FFED9AAE16FE883DCA1955019ADC601 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		21C936DF49A15672234AF3D97D1E8182 /* RBBBlockBasedArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBBlockBasedArray.m; path = RBBAnimation/RBBBlockBasedArray.m; sourceTree = "<group>"; };
+		22871CF6ED8D3872E8D42C6FE638B9F0 /* RBBLinearInterpolation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBLinearInterpolation.m; path = RBBAnimation/RBBLinearInterpolation.m; sourceTree = "<group>"; };
+		23A75C1C5428BCB1EAC0D06FF0EC9A45 /* RBBCustomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBCustomAnimation.m; path = RBBAnimation/RBBCustomAnimation.m; sourceTree = "<group>"; };
+		255B886EB8186A38761281B501AFFDBA /* LMModalSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMModalSegue.m; path = LMAlertView/LMModalSegue.m; sourceTree = "<group>"; };
+		26E2A9E8E3D4CCA27B243596CB0D8AE2 /* RBBSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBSpringAnimation.m; path = RBBAnimation/RBBSpringAnimation.m; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		30FB9100910B31B05CB09B3604313FCF /* CAAnimationBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAAnimationBlocks-dummy.m"; sourceTree = "<group>"; };
-		32F5C7389D57CDEAD240C5262903D6B3 /* libLMAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLMAlertView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		352B9CD7E0F3ACE292DB5930DC4C8CED /* libEDStarRating.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEDStarRating.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		391AB292E0AC46D9F024581503F12268 /* RBBSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBSpringAnimation.h; path = RBBAnimation/RBBSpringAnimation.h; sourceTree = "<group>"; };
-		3C3FCB469C5AFB7988B20DED66B47A63 /* LMModalSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMModalSegue.m; path = LMAlertView/LMModalSegue.m; sourceTree = "<group>"; };
-		3C55495ACE9238B9C21AFA272DEF4A66 /* RBBTweenAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBTweenAnimation.m; path = RBBAnimation/RBBTweenAnimation.m; sourceTree = "<group>"; };
-		4B88259220B73ECA1CCC34A89D44E29D /* RBBLinearInterpolation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBLinearInterpolation.m; path = RBBAnimation/RBBLinearInterpolation.m; sourceTree = "<group>"; };
-		4BA2DC10CA7357AA6D25189D79BA27F2 /* LMModalItemTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMModalItemTableViewCell.h; path = LMAlertView/LMModalItemTableViewCell.h; sourceTree = "<group>"; };
+		3FD5CB94E237FD8D386446FEC5758753 /* libRBBAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRBBAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4137CCAE883458F2B9C6657F525C7E21 /* RBBAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBBAnimation-prefix.pch"; sourceTree = "<group>"; };
+		414AF4DBC873A909061077F36E6F32E1 /* EDStarRating.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EDStarRating.xcconfig; sourceTree = "<group>"; };
+		44F58CFB649F3019354F6EAFA18DD243 /* LMEmbeddedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMEmbeddedViewController.m; path = LMAlertView/LMEmbeddedViewController.m; sourceTree = "<group>"; };
+		4855C2E14D3C71CD5218228802004223 /* LMNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMNavigationController.m; path = LMAlertView/LMNavigationController.m; sourceTree = "<group>"; };
+		48A3B15BA620544074FFAA8AA39BBEE4 /* RBBTweenAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBTweenAnimation.h; path = RBBAnimation/RBBTweenAnimation.h; sourceTree = "<group>"; };
+		4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4DB83188990DBF67A5AFACF04A8AF635 /* CAAnimationBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAAnimationBlocks-dummy.m"; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		573AF906F26E1082AB5684E3E9D0D42D /* RBBAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBBAnimation.xcconfig; sourceTree = "<group>"; };
-		57A2BE5E55768DA52C8D7F52BCAA90D0 /* RBBBlockBasedArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBBlockBasedArray.m; path = RBBAnimation/RBBBlockBasedArray.m; sourceTree = "<group>"; };
-		5C407C781CDCFAB933AF596DDE95F860 /* LMNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMNavigationController.h; path = LMAlertView/LMNavigationController.h; sourceTree = "<group>"; };
-		65698B927BF7D7B30798D3F2CE50735B /* RBBCustomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBCustomAnimation.m; path = RBBAnimation/RBBCustomAnimation.m; sourceTree = "<group>"; };
-		6583B489526E9A8E693F7FBE5B41E02F /* RBBBlockBasedArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBBlockBasedArray.h; path = RBBAnimation/RBBBlockBasedArray.h; sourceTree = "<group>"; };
-		66D20C831D3615824646C67C57E019C0 /* LMModalSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMModalSegue.h; path = LMAlertView/LMModalSegue.h; sourceTree = "<group>"; };
-		67D6F3AEBFF4C7462F23BDD109D7B928 /* CAAnimationBlocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAAnimationBlocks.xcconfig; sourceTree = "<group>"; };
-		6891B61510429AC81D35D85A095A733F /* RBBAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBBAnimation-dummy.m"; sourceTree = "<group>"; };
+		572C32EC0DEFB23E231419E6C5AADC90 /* RBBEasingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBEasingFunction.h; path = RBBAnimation/RBBEasingFunction.h; sourceTree = "<group>"; };
+		573DA2C6AF498809879DEF3E5B5722CE /* EDStarRating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDStarRating.m; path = EDStarRating/EDStarRating.m; sourceTree = "<group>"; };
+		5AE76FEDB50540201AF6485A0ACABA21 /* RBBLinearInterpolation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBLinearInterpolation.h; path = RBBAnimation/RBBLinearInterpolation.h; sourceTree = "<group>"; };
+		664127B05EAC83AC3E972C0D5967A35F /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		7901D4D1DAAD39634CA8F2B5225FACDB /* LMEmbeddedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMEmbeddedViewController.h; path = LMAlertView/LMEmbeddedViewController.h; sourceTree = "<group>"; };
-		7A0C4E770CADAAC081A77AF61D9AD01B /* LMNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMNavigationBar.m; path = LMAlertView/LMNavigationBar.m; sourceTree = "<group>"; };
-		7EEC5325ECF39445CF2E0486BC15C75D /* LMNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMNavigationBar.h; path = LMAlertView/LMNavigationBar.h; sourceTree = "<group>"; };
-		811971636C691CD96BB7206632FA2860 /* RBBEasingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBEasingFunction.h; path = RBBAnimation/RBBEasingFunction.h; sourceTree = "<group>"; };
-		832504C405D6770A9503C501C0E92B03 /* RBBTweenAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBTweenAnimation.h; path = RBBAnimation/RBBTweenAnimation.h; sourceTree = "<group>"; };
-		89E35561009143A41B3E71C32AC72F20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B3B34B2D40F35D157B3B61017B83DE2 /* CALayer+ModalAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+ModalAlert.h"; path = "LMAlertView/CALayer+ModalAlert.h"; sourceTree = "<group>"; };
-		8C8B5D15136637834B5704703CE2A584 /* RBBCubicBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBCubicBezier.h; path = RBBAnimation/RBBCubicBezier.h; sourceTree = "<group>"; };
+		7164F071EEBF3E7B2DF621768AFEC0F8 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		71C6F48C76B3EEB3DF981042FE874CFD /* RBBTweenAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBTweenAnimation.m; path = RBBAnimation/RBBTweenAnimation.m; sourceTree = "<group>"; };
+		72C5EA821F3A75B63324A73077236F74 /* RBBCubicBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBCubicBezier.h; path = RBBAnimation/RBBCubicBezier.h; sourceTree = "<group>"; };
+		779C3B769ADB810B5BDBAFB04E9DE7C6 /* CALayer+ModalAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+ModalAlert.h"; path = "LMAlertView/CALayer+ModalAlert.h"; sourceTree = "<group>"; };
+		77E891529058ED8A8A5246D2132CAB1C /* EDStarRating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDStarRating.h; path = EDStarRating/EDStarRating.h; sourceTree = "<group>"; };
+		7B29A8BEEF8A776B43DBFC1A688DC9BA /* LMAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMAlertView.xcconfig; sourceTree = "<group>"; };
+		7C9CF49D6172308F12B734182BA0E58C /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		7F6B9091CB93C7FDB65D740BE40F3D66 /* CAAnimationBlocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAAnimationBlocks.xcconfig; sourceTree = "<group>"; };
+		86672911CF76026FF9FFB22A8E679750 /* LMNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMNavigationController.h; path = LMAlertView/LMNavigationController.h; sourceTree = "<group>"; };
+		89349087992E6DD5C6B72692B61E3028 /* LMAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMAlertView-dummy.m"; sourceTree = "<group>"; };
+		8E38A918A5ECB36FF6EA3092336CBD3F /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		8F95CF86D63C3E504B024A5FF242220A /* RBBSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBSpringAnimation.h; path = RBBAnimation/RBBSpringAnimation.h; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9998A5525AAADA9D19697715EDA025FE /* RBBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBAnimation.h; path = RBBAnimation/RBBAnimation.h; sourceTree = "<group>"; };
-		9E0F3C8ECBAC3082774940023204FD02 /* LMAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMAlertView-prefix.pch"; sourceTree = "<group>"; };
+		9DD28E3E8787E05DB71185CCDE970350 /* libLMAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLMAlertView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A29BDEE78DAC8458DE52C6DE8C748561 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+Blocks.h"; path = "CAAnimationBlocks/CAAnimation+Blocks.h"; sourceTree = "<group>"; };
-		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B468B7643A91AC3198F2C51229BA0C07 /* LMAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMAlertView.h; path = LMAlertView/LMAlertView.h; sourceTree = "<group>"; };
-		B5628377F9DB3EA6C738E5A31F37DDE4 /* LMAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMAlertView.m; path = LMAlertView/LMAlertView.m; sourceTree = "<group>"; };
-		B91728C98DCE9482B67616E4AFEAD610 /* CALayer+ModalAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+ModalAlert.m"; path = "LMAlertView/CALayer+ModalAlert.m"; sourceTree = "<group>"; };
+		A3326633A90CF8649382E3E1984D47D8 /* LMAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMAlertView.h; path = LMAlertView/LMAlertView.h; sourceTree = "<group>"; };
+		A34EA77FDB639CA0F0521E3C70EDA5D6 /* CALayer+ModalAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+ModalAlert.m"; path = "LMAlertView/CALayer+ModalAlert.m"; sourceTree = "<group>"; };
+		A36DB9473EFB4BC673CBD65196CECBA5 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		A9CDCDA97F75FBA33D8D1994AF8BE718 /* RBBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBAnimation.h; path = RBBAnimation/RBBAnimation.h; sourceTree = "<group>"; };
+		AC24EFDABE862C79B26C6F5A059991D5 /* RBBEasingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBEasingFunction.m; path = RBBAnimation/RBBEasingFunction.m; sourceTree = "<group>"; };
+		AEC03513E938248348D8244FC1FACAFA /* LMAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMAlertView.m; path = LMAlertView/LMAlertView.m; sourceTree = "<group>"; };
+		B76E913E6661EDEDB846FDAA25AABA78 /* RBBCubicBezier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBCubicBezier.m; path = RBBAnimation/RBBCubicBezier.m; sourceTree = "<group>"; };
+		B927B07B5AE4C49333834B97ACEF8889 /* LMModalSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMModalSegue.h; path = LMAlertView/LMModalSegue.h; sourceTree = "<group>"; };
+		B9F8B2AFE98C732C17221FD37A0E6068 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBF3863292CBCF7757CE0BE7A4BDCAFD /* RBBAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBAnimation.m; path = RBBAnimation/RBBAnimation.m; sourceTree = "<group>"; };
-		BC8C649C83AFF89130901FB937B24ED7 /* LMAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMAlertView-dummy.m"; sourceTree = "<group>"; };
-		C0344C7A0CE72475AA7E279B5A4C97C0 /* RBBCubicBezier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBCubicBezier.m; path = RBBAnimation/RBBCubicBezier.m; sourceTree = "<group>"; };
-		C07DA3AC31B7D4292BCC8FFA8CF8B789 /* LMModalItemTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMModalItemTableViewCell.m; path = LMAlertView/LMModalItemTableViewCell.m; sourceTree = "<group>"; };
-		C91C840D9AEC3519C781B5DED146DD25 /* CAAnimationBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAAnimationBlocks-prefix.pch"; sourceTree = "<group>"; };
-		D82D38D83F051AA03F62995B651F2F43 /* LMEmbeddedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMEmbeddedViewController.m; path = LMAlertView/LMEmbeddedViewController.m; sourceTree = "<group>"; };
-		DA3754662B467335A5308780866DF9B7 /* RBBCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBCustomAnimation.h; path = RBBAnimation/RBBCustomAnimation.h; sourceTree = "<group>"; };
-		DB56F02656F941C6B7EEE4CFE9201005 /* RBBSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBSpringAnimation.m; path = RBBAnimation/RBBSpringAnimation.m; sourceTree = "<group>"; };
-		E07634DB646BA5EB7603F5787FE4689D /* libRBBAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRBBAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49AD5EC74E6299B40C807744DC8C31B /* RBBAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBBAnimation-prefix.pch"; sourceTree = "<group>"; };
-		FA15B611EA3F719B1C96FFA847F8E947 /* LMAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMAlertView.xcconfig; sourceTree = "<group>"; };
+		BD0D2ECD10D0137ABC4A5FD9556242DB /* libWebViewJavascriptBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebViewJavascriptBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17E38B871B6337A290014FBAA0E5098 /* RBBCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBBCustomAnimation.h; path = RBBAnimation/RBBCustomAnimation.h; sourceTree = "<group>"; };
+		C20B5DE0A668F2C3625D2CD7E2B582AF /* libCAAnimationBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCAAnimationBlocks.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E6BADA426925C675CAA90C08A49ABF /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		CD027A2168CF5C76B637A461BEEE7205 /* RBBAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBBAnimation-dummy.m"; sourceTree = "<group>"; };
+		CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D136A7F70DC145E3AE61DD89E3D80556 /* LMEmbeddedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMEmbeddedViewController.h; path = LMAlertView/LMEmbeddedViewController.h; sourceTree = "<group>"; };
+		D3314DD7CFBB10329B519763FC308DA3 /* LMModalItemTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMModalItemTableViewCell.h; path = LMAlertView/LMModalItemTableViewCell.h; sourceTree = "<group>"; };
+		D6674F812B7ECC8C5D6605AFA16538EC /* LMModalItemTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMModalItemTableViewCell.m; path = LMAlertView/LMModalItemTableViewCell.m; sourceTree = "<group>"; };
+		DD512B81F01DB5951E2A1C7AE85FA1A5 /* LMAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMAlertView-prefix.pch"; sourceTree = "<group>"; };
+		E1D88A89D447EDEE944FAF1025C98414 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+Blocks.h"; path = "CAAnimationBlocks/CAAnimation+Blocks.h"; sourceTree = "<group>"; };
+		E312D77AAB8A8DD4E34A5120EB76330A /* CAAnimationBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAAnimationBlocks-prefix.pch"; sourceTree = "<group>"; };
+		EAE0DAFC61011FC0AA26985099D9680B /* WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
+		ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF590892A8E06DD15F922B59419989A4 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		F1A9F22B6DC9758BCFF5E6D6EA760F07 /* EDStarRating-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EDStarRating-dummy.m"; sourceTree = "<group>"; };
+		F59B5AF33AB5DE88F0D32FCCC696DD99 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		FE415B6BAF8C52CE5869E6A06471E76C /* RBBAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBBAnimation.m; path = RBBAnimation/RBBAnimation.m; sourceTree = "<group>"; };
+		FEFE58312BF2D287CF8F4075C752AA10 /* LMNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMNavigationBar.h; path = LMAlertView/LMNavigationBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,11 +207,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51503CF9C4926F84B2C4C749ACD80C2A /* Frameworks */ = {
+		67C27AEAC9E2E3280702196902DCE4B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFEA56BD838B5014AD50D332E2234498 /* Foundation.framework in Frameworks */,
+				F5D031B3A99B3F466627D38712ADF8EA /* Foundation.framework in Frameworks */,
+				7EA4EF6C3CE7AB9DACB8D5F9BEB287C6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,9 +234,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B90BBEC7DED215600D5E95697346872D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8904505EB26D75CF9FC5E7A749D1F27 /* CoreGraphics.framework in Frameworks */,
+				C62A8B5FE2D089EA0A0C14CF1CC19D35 /* Foundation.framework in Frameworks */,
+				62D91FBC7898618C03EE5F60F71F7D47 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C8C6E5C62A373CE036E997BE1443D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ACF86F40E4B163D644176CD593AA3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004265F95A39FADAE3C4491D243F41D7 /* RBBAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A9CDCDA97F75FBA33D8D1994AF8BE718 /* RBBAnimation.h */,
+				FE415B6BAF8C52CE5869E6A06471E76C /* RBBAnimation.m */,
+				0EC08C5D24D07A1DF32B138D3DB578E0 /* RBBBlockBasedArray.h */,
+				21C936DF49A15672234AF3D97D1E8182 /* RBBBlockBasedArray.m */,
+				72C5EA821F3A75B63324A73077236F74 /* RBBCubicBezier.h */,
+				B76E913E6661EDEDB846FDAA25AABA78 /* RBBCubicBezier.m */,
+				C17E38B871B6337A290014FBAA0E5098 /* RBBCustomAnimation.h */,
+				23A75C1C5428BCB1EAC0D06FF0EC9A45 /* RBBCustomAnimation.m */,
+				572C32EC0DEFB23E231419E6C5AADC90 /* RBBEasingFunction.h */,
+				AC24EFDABE862C79B26C6F5A059991D5 /* RBBEasingFunction.m */,
+				5AE76FEDB50540201AF6485A0ACABA21 /* RBBLinearInterpolation.h */,
+				22871CF6ED8D3872E8D42C6FE638B9F0 /* RBBLinearInterpolation.m */,
+				8F95CF86D63C3E504B024A5FF242220A /* RBBSpringAnimation.h */,
+				26E2A9E8E3D4CCA27B243596CB0D8AE2 /* RBBSpringAnimation.m */,
+				48A3B15BA620544074FFAA8AA39BBEE4 /* RBBTweenAnimation.h */,
+				71C6F48C76B3EEB3DF981042FE874CFD /* RBBTweenAnimation.m */,
+				370970712BDA564849AE7253D2142BDB /* Support Files */,
+			);
+			path = RBBAnimation;
+			sourceTree = "<group>";
+		};
 		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,52 +287,151 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
-				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3926C638AD0708942C88C2BC89261735 /* iOS */,
+				A9203A0FF197B8764CD853B6EE3A159E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7383F50C87B2F72A34077EFEF1F07731 /* CAAnimationBlocks */ = {
+		195BED796BD64C70EA0A54162A8528EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A29BDEE78DAC8458DE52C6DE8C748561 /* CAAnimation+Blocks.h */,
-				0B08C1F49166AEB43C7FA4A250BDE14C /* CAAnimation+Blocks.m */,
-				BF6E69A1DD939DD09DF331199562AE1C /* Support Files */,
+				7F6B9091CB93C7FDB65D740BE40F3D66 /* CAAnimationBlocks.xcconfig */,
+				4DB83188990DBF67A5AFACF04A8AF635 /* CAAnimationBlocks-dummy.m */,
+				E312D77AAB8A8DD4E34A5120EB76330A /* CAAnimationBlocks-prefix.pch */,
 			);
-			path = CAAnimationBlocks;
+			name = "Support Files";
+			path = "../Target Support Files/CAAnimationBlocks";
 			sourceTree = "<group>";
 		};
-		74DB49FC921672450B67DB78480658AA /* Pods */ = {
+		1E6B1A45E4C2B8DF9341AFA1D2A14750 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7383F50C87B2F72A34077EFEF1F07731 /* CAAnimationBlocks */,
-				D7A98E715764A9CCD845CC909A047CC3 /* LMAlertView */,
-				F0F9CB35861B95B5951B40B352E2C659 /* RBBAnimation */,
+				BAB74807C15F71FCED26521175AE093B /* CAAnimationBlocks */,
+				278399848D20D81BC3E8DC01A5E96B25 /* EDStarRating */,
+				2E79D8391EE8305BCD2A4F31472D5C24 /* LMAlertView */,
+				004265F95A39FADAE3C4491D243F41D7 /* RBBAnimation */,
+				57DDC162B7A90C12A9B181E5D9922CD7 /* WebViewJavascriptBridge */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		278399848D20D81BC3E8DC01A5E96B25 /* EDStarRating */ = {
+			isa = PBXGroup;
+			children = (
+				77E891529058ED8A8A5246D2132CAB1C /* EDStarRating.h */,
+				573DA2C6AF498809879DEF3E5B5722CE /* EDStarRating.m */,
+				692920742DE26254165ADE237AA63D23 /* Support Files */,
+			);
+			path = EDStarRating;
+			sourceTree = "<group>";
+		};
+		2E79D8391EE8305BCD2A4F31472D5C24 /* LMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				779C3B769ADB810B5BDBAFB04E9DE7C6 /* CALayer+ModalAlert.h */,
+				A34EA77FDB639CA0F0521E3C70EDA5D6 /* CALayer+ModalAlert.m */,
+				A3326633A90CF8649382E3E1984D47D8 /* LMAlertView.h */,
+				AEC03513E938248348D8244FC1FACAFA /* LMAlertView.m */,
+				D136A7F70DC145E3AE61DD89E3D80556 /* LMEmbeddedViewController.h */,
+				44F58CFB649F3019354F6EAFA18DD243 /* LMEmbeddedViewController.m */,
+				D3314DD7CFBB10329B519763FC308DA3 /* LMModalItemTableViewCell.h */,
+				D6674F812B7ECC8C5D6605AFA16538EC /* LMModalItemTableViewCell.m */,
+				B927B07B5AE4C49333834B97ACEF8889 /* LMModalSegue.h */,
+				255B886EB8186A38761281B501AFFDBA /* LMModalSegue.m */,
+				FEFE58312BF2D287CF8F4075C752AA10 /* LMNavigationBar.h */,
+				18DD0C323371575D878DEA3EE681A6C2 /* LMNavigationBar.m */,
+				86672911CF76026FF9FFB22A8E679750 /* LMNavigationController.h */,
+				4855C2E14D3C71CD5218228802004223 /* LMNavigationController.m */,
+				BFBA412F4D713D8F1685502DB988DC41 /* Support Files */,
+			);
+			path = LMAlertView;
+			sourceTree = "<group>";
+		};
+		370970712BDA564849AE7253D2142BDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DE516E34DF74761E258E06DF98BADF /* RBBAnimation.xcconfig */,
+				CD027A2168CF5C76B637A461BEEE7205 /* RBBAnimation-dummy.m */,
+				4137CCAE883458F2B9C6657F525C7E21 /* RBBAnimation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RBBAnimation";
+			sourceTree = "<group>";
+		};
+		57DDC162B7A90C12A9B181E5D9922CD7 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				7164F071EEBF3E7B2DF621768AFEC0F8 /* WebViewJavascriptBridge.h */,
+				8E38A918A5ECB36FF6EA3092336CBD3F /* WebViewJavascriptBridge.m */,
+				A36DB9473EFB4BC673CBD65196CECBA5 /* WebViewJavascriptBridge_JS.h */,
+				1FFED9AAE16FE883DCA1955019ADC601 /* WebViewJavascriptBridge_JS.m */,
+				7C9CF49D6172308F12B734182BA0E58C /* WebViewJavascriptBridgeBase.h */,
+				C8E6BADA426925C675CAA90C08A49ABF /* WebViewJavascriptBridgeBase.m */,
+				14873EC49D2B0755C61EBCABB20C9141 /* WKWebViewJavascriptBridge.h */,
+				EF590892A8E06DD15F922B59419989A4 /* WKWebViewJavascriptBridge.m */,
+				5A9E7AF379AF4E95FE6E316E2C0203F5 /* Support Files */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		5A9E7AF379AF4E95FE6E316E2C0203F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE0DAFC61011FC0AA26985099D9680B /* WebViewJavascriptBridge.xcconfig */,
+				664127B05EAC83AC3E972C0D5967A35F /* WebViewJavascriptBridge-dummy.m */,
+				F59B5AF33AB5DE88F0D32FCCC696DD99 /* WebViewJavascriptBridge-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		692920742DE26254165ADE237AA63D23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				414AF4DBC873A909061077F36E6F32E1 /* EDStarRating.xcconfig */,
+				F1A9F22B6DC9758BCFF5E6D6EA760F07 /* EDStarRating-dummy.m */,
+				0F04BFB99F5BD303D348AAD8FCA5F692 /* EDStarRating-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EDStarRating";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				74DB49FC921672450B67DB78480658AA /* Pods */,
-				DB2380BB68AD66E23A09BE1C1DB297B5 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				1E6B1A45E4C2B8DF9341AFA1D2A14750 /* Pods */,
+				969B2ADF3D15C1C96908F0E85E9EFCD7 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		969B2ADF3D15C1C96908F0E85E9EFCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20B5DE0A668F2C3625D2CD7E2B582AF /* libCAAnimationBlocks.a */,
+				352B9CD7E0F3ACE292DB5930DC4C8CED /* libEDStarRating.a */,
+				9DD28E3E8787E05DB71185CCDE970350 /* libLMAlertView.a */,
+				B9F8B2AFE98C732C17221FD37A0E6068 /* libPods.a */,
+				3FD5CB94E237FD8D386446FEC5758753 /* libRBBAnimation.a */,
+				BD0D2ECD10D0137ABC4A5FD9556242DB /* libWebViewJavascriptBridge.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9203A0FF197B8764CD853B6EE3A159E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */,
+				CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */,
+				0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */,
+				ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -256,91 +449,22 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		BF6E69A1DD939DD09DF331199562AE1C /* Support Files */ = {
+		BAB74807C15F71FCED26521175AE093B /* CAAnimationBlocks */ = {
 			isa = PBXGroup;
 			children = (
-				67D6F3AEBFF4C7462F23BDD109D7B928 /* CAAnimationBlocks.xcconfig */,
-				30FB9100910B31B05CB09B3604313FCF /* CAAnimationBlocks-dummy.m */,
-				C91C840D9AEC3519C781B5DED146DD25 /* CAAnimationBlocks-prefix.pch */,
+				E1D88A89D447EDEE944FAF1025C98414 /* CAAnimation+Blocks.h */,
+				1F8C51814678BE564D85DDA62C4FDD7B /* CAAnimation+Blocks.m */,
+				195BED796BD64C70EA0A54162A8528EA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CAAnimationBlocks";
+			path = CAAnimationBlocks;
 			sourceTree = "<group>";
 		};
-		D00AF70E972923B76E583558045B4396 /* Support Files */ = {
+		BFBA412F4D713D8F1685502DB988DC41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				573AF906F26E1082AB5684E3E9D0D42D /* RBBAnimation.xcconfig */,
-				6891B61510429AC81D35D85A095A733F /* RBBAnimation-dummy.m */,
-				F49AD5EC74E6299B40C807744DC8C31B /* RBBAnimation-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RBBAnimation";
-			sourceTree = "<group>";
-		};
-		D7A98E715764A9CCD845CC909A047CC3 /* LMAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				8B3B34B2D40F35D157B3B61017B83DE2 /* CALayer+ModalAlert.h */,
-				B91728C98DCE9482B67616E4AFEAD610 /* CALayer+ModalAlert.m */,
-				B468B7643A91AC3198F2C51229BA0C07 /* LMAlertView.h */,
-				B5628377F9DB3EA6C738E5A31F37DDE4 /* LMAlertView.m */,
-				7901D4D1DAAD39634CA8F2B5225FACDB /* LMEmbeddedViewController.h */,
-				D82D38D83F051AA03F62995B651F2F43 /* LMEmbeddedViewController.m */,
-				4BA2DC10CA7357AA6D25189D79BA27F2 /* LMModalItemTableViewCell.h */,
-				C07DA3AC31B7D4292BCC8FFA8CF8B789 /* LMModalItemTableViewCell.m */,
-				66D20C831D3615824646C67C57E019C0 /* LMModalSegue.h */,
-				3C3FCB469C5AFB7988B20DED66B47A63 /* LMModalSegue.m */,
-				7EEC5325ECF39445CF2E0486BC15C75D /* LMNavigationBar.h */,
-				7A0C4E770CADAAC081A77AF61D9AD01B /* LMNavigationBar.m */,
-				5C407C781CDCFAB933AF596DDE95F860 /* LMNavigationController.h */,
-				13B8B32C0871E7628A2EC68699C85EB9 /* LMNavigationController.m */,
-				F7969304B06F4FD95FF069F90D95E4BA /* Support Files */,
-			);
-			path = LMAlertView;
-			sourceTree = "<group>";
-		};
-		DB2380BB68AD66E23A09BE1C1DB297B5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F9DD9E8AF429234706B7E9D9FAC96EF /* libCAAnimationBlocks.a */,
-				32F5C7389D57CDEAD240C5262903D6B3 /* libLMAlertView.a */,
-				89E35561009143A41B3E71C32AC72F20 /* libPods.a */,
-				E07634DB646BA5EB7603F5787FE4689D /* libRBBAnimation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F0F9CB35861B95B5951B40B352E2C659 /* RBBAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				9998A5525AAADA9D19697715EDA025FE /* RBBAnimation.h */,
-				BBF3863292CBCF7757CE0BE7A4BDCAFD /* RBBAnimation.m */,
-				6583B489526E9A8E693F7FBE5B41E02F /* RBBBlockBasedArray.h */,
-				57A2BE5E55768DA52C8D7F52BCAA90D0 /* RBBBlockBasedArray.m */,
-				8C8B5D15136637834B5704703CE2A584 /* RBBCubicBezier.h */,
-				C0344C7A0CE72475AA7E279B5A4C97C0 /* RBBCubicBezier.m */,
-				DA3754662B467335A5308780866DF9B7 /* RBBCustomAnimation.h */,
-				65698B927BF7D7B30798D3F2CE50735B /* RBBCustomAnimation.m */,
-				811971636C691CD96BB7206632FA2860 /* RBBEasingFunction.h */,
-				04C2996158C3DBE3155E3670738DAD57 /* RBBEasingFunction.m */,
-				13F1D5D05D9A79ED193557583F79C318 /* RBBLinearInterpolation.h */,
-				4B88259220B73ECA1CCC34A89D44E29D /* RBBLinearInterpolation.m */,
-				391AB292E0AC46D9F024581503F12268 /* RBBSpringAnimation.h */,
-				DB56F02656F941C6B7EEE4CFE9201005 /* RBBSpringAnimation.m */,
-				832504C405D6770A9503C501C0E92B03 /* RBBTweenAnimation.h */,
-				3C55495ACE9238B9C21AFA272DEF4A66 /* RBBTweenAnimation.m */,
-				D00AF70E972923B76E583558045B4396 /* Support Files */,
-			);
-			path = RBBAnimation;
-			sourceTree = "<group>";
-		};
-		F7969304B06F4FD95FF069F90D95E4BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA15B611EA3F719B1C96FFA847F8E947 /* LMAlertView.xcconfig */,
-				BC8C649C83AFF89130901FB937B24ED7 /* LMAlertView-dummy.m */,
-				9E0F3C8ECBAC3082774940023204FD02 /* LMAlertView-prefix.pch */,
+				7B29A8BEEF8A776B43DBFC1A688DC9BA /* LMAlertView.xcconfig */,
+				89349087992E6DD5C6B72692B61E3028 /* LMAlertView-dummy.m */,
+				DD512B81F01DB5951E2A1C7AE85FA1A5 /* LMAlertView-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LMAlertView";
@@ -349,6 +473,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		176C7BDBF7F011721AF0FD3AA4BA6217 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8804F208BDD796E8513156FE7A79A2C /* WebViewJavascriptBridge.h in Headers */,
+				37B61C6F84808A3CB6AAA6115905E08C /* WebViewJavascriptBridge_JS.h in Headers */,
+				3AD38B18864D882D52705F0E53C98879 /* WebViewJavascriptBridgeBase.h in Headers */,
+				3DE068802AEDE3E290985812A3EF71BA /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CC0026165ED8B1C482DC03FC73843D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A4CC51DCFBF6B8F7303848D93A1378 /* EDStarRating.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50936385F627227EFDAB85D43D5BC350 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,25 +532,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C0FCBF24DF4DBDF2E6C21B2831A4CA1 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07A86C23A6DAEE266A09A86E83CA7105 /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				89B388B5611FDA4FC180D159354A7AF3 /* Sources */,
-				51503CF9C4926F84B2C4C749ACD80C2A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4C875E160511BDF6EAEA9BD629C5435 /* PBXTargetDependency */,
-				556EBFB340322B090B4E7485FC83F23D /* PBXTargetDependency */,
-				7776D908BD07EABDB2536C1717847E65 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 89E35561009143A41B3E71C32AC72F20 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		580787BAE4AF0786626C42AAE3E9CE14 /* LMAlertView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B52B1298FCFCC246F9EA748D3EB0DC32 /* Build configuration list for PBXNativeTarget "LMAlertView" */;
@@ -424,7 +548,45 @@
 			);
 			name = LMAlertView;
 			productName = LMAlertView;
-			productReference = 32F5C7389D57CDEAD240C5262903D6B3 /* libLMAlertView.a */;
+			productReference = 9DD28E3E8787E05DB71185CCDE970350 /* libLMAlertView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		64725FB4AC2CD9FF8837DBAED3240333 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B59FAFABE0D8501F5580566C4E635B0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				FA481C77953EB37A9542A22C52053778 /* Sources */,
+				C4C8C6E5C62A373CE036E997BE1443D5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEED094C93B34C2F819E974053D040BB /* PBXTargetDependency */,
+				C8E1FC6D10A0C0CA5C3F4E7AD731B753 /* PBXTargetDependency */,
+				2AE8CB9834BB0759942EC0D636B4329C /* PBXTargetDependency */,
+				F740621AB021011A7C087341777BDB41 /* PBXTargetDependency */,
+				E0FDD94A85D17C03016E7D279D4684A2 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = B9F8B2AFE98C732C17221FD37A0E6068 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9BEE5F063D739BF8536958FD76629434 /* EDStarRating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E0A7BF3930DFB9D9C9FC1DD90C7700 /* Build configuration list for PBXNativeTarget "EDStarRating" */;
+			buildPhases = (
+				F23C088B71D7FB75709F233C02847EA6 /* Sources */,
+				B90BBEC7DED215600D5E95697346872D /* Frameworks */,
+				21CC0026165ED8B1C482DC03FC73843D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDStarRating;
+			productName = EDStarRating;
+			productReference = 352B9CD7E0F3ACE292DB5930DC4C8CED /* libEDStarRating.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C603EFE4AB12127AFC95861855B07DD5 /* RBBAnimation */ = {
@@ -441,7 +603,24 @@
 			);
 			name = RBBAnimation;
 			productName = RBBAnimation;
-			productReference = E07634DB646BA5EB7603F5787FE4689D /* libRBBAnimation.a */;
+			productReference = 3FD5CB94E237FD8D386446FEC5758753 /* libRBBAnimation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F36DE44B3D71278FCE983F40C8E961BA /* WebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B42F2B2EFD21D81826CC16D117271F /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
+			buildPhases = (
+				D42FBA2E933D97479114E0B56CD3F90E /* Sources */,
+				67C27AEAC9E2E3280702196902DCE4B6 /* Frameworks */,
+				176C7BDBF7F011721AF0FD3AA4BA6217 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewJavascriptBridge;
+			productName = WebViewJavascriptBridge;
+			productReference = BD0D2ECD10D0137ABC4A5FD9556242DB /* libWebViewJavascriptBridge.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FDC4981285617666BFB83C856ED23F94 /* CAAnimationBlocks */ = {
@@ -458,7 +637,7 @@
 			);
 			name = CAAnimationBlocks;
 			productName = CAAnimationBlocks;
-			productReference = 1F9DD9E8AF429234706B7E9D9FAC96EF /* libCAAnimationBlocks.a */;
+			productReference = C20B5DE0A668F2C3625D2CD7E2B582AF /* libCAAnimationBlocks.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -478,14 +657,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DB2380BB68AD66E23A09BE1C1DB297B5 /* Products */;
+			productRefGroup = 969B2ADF3D15C1C96908F0E85E9EFCD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FDC4981285617666BFB83C856ED23F94 /* CAAnimationBlocks */,
+				9BEE5F063D739BF8536958FD76629434 /* EDStarRating */,
 				580787BAE4AF0786626C42AAE3E9CE14 /* LMAlertView */,
-				0C0FCBF24DF4DBDF2E6C21B2831A4CA1 /* Pods */,
+				64725FB4AC2CD9FF8837DBAED3240333 /* Pods */,
 				C603EFE4AB12127AFC95861855B07DD5 /* RBBAnimation */,
+				F36DE44B3D71278FCE983F40C8E961BA /* WebViewJavascriptBridge */,
 			);
 		};
 /* End PBXProject section */
@@ -504,14 +685,6 @@
 				5CBE49E3AE571DEDE45B030110347AC9 /* RBBLinearInterpolation.m in Sources */,
 				976273D6676976991264476369A12D85 /* RBBSpringAnimation.m in Sources */,
 				F38EEFB6FDD90298AD3F3A302D74BC33 /* RBBTweenAnimation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89B388B5611FDA4FC180D159354A7AF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C684E011DFAA5C7B693EE8C3BF7F312 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +712,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D42FBA2E933D97479114E0B56CD3F90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD780DEC31F2132C75D1294DDF14E51A /* WebViewJavascriptBridge-dummy.m in Sources */,
+				F07E5E1590F302BAB78C97F0AD458265 /* WebViewJavascriptBridge.m in Sources */,
+				6BE60D996765107A79D5023006D5C5A9 /* WebViewJavascriptBridge_JS.m in Sources */,
+				E9D30CB304D5E98053482FC530B18F35 /* WebViewJavascriptBridgeBase.m in Sources */,
+				64CA88FC201195F8BA8A8DB5F9F98641 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C088B71D7FB75709F233C02847EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5ABA338F268AE0E0CB54B61A72C39C /* EDStarRating-dummy.m in Sources */,
+				2F6540155CD3B8C24156AD9D843F8CCE /* EDStarRating.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA481C77953EB37A9542A22C52053778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA779A4AB51D72DEDABA9001F8A5838 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -554,30 +756,42 @@
 			target = C603EFE4AB12127AFC95861855B07DD5 /* RBBAnimation */;
 			targetProxy = E1EBF4EA4EEC010B64EF823F4297374E /* PBXContainerItemProxy */;
 		};
-		556EBFB340322B090B4E7485FC83F23D /* PBXTargetDependency */ = {
+		2AE8CB9834BB0759942EC0D636B4329C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LMAlertView;
 			target = 580787BAE4AF0786626C42AAE3E9CE14 /* LMAlertView */;
-			targetProxy = 3A3DBCAD68F89515DB666F044619B8BB /* PBXContainerItemProxy */;
+			targetProxy = 55D433CAC3DEAEB0774FBB306F04A546 /* PBXContainerItemProxy */;
 		};
-		7776D908BD07EABDB2536C1717847E65 /* PBXTargetDependency */ = {
+		C8E1FC6D10A0C0CA5C3F4E7AD731B753 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RBBAnimation;
-			target = C603EFE4AB12127AFC95861855B07DD5 /* RBBAnimation */;
-			targetProxy = E96CC17F070793A0429ADA0E27F39D32 /* PBXContainerItemProxy */;
+			name = EDStarRating;
+			target = 9BEE5F063D739BF8536958FD76629434 /* EDStarRating */;
+			targetProxy = FAF341F394BE8A5CC15908147190394A /* PBXContainerItemProxy */;
 		};
-		A4C875E160511BDF6EAEA9BD629C5435 /* PBXTargetDependency */ = {
+		CEED094C93B34C2F819E974053D040BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CAAnimationBlocks;
 			target = FDC4981285617666BFB83C856ED23F94 /* CAAnimationBlocks */;
-			targetProxy = 081713C45660E17864EDB433508286E3 /* PBXContainerItemProxy */;
+			targetProxy = EEA49099D87A8DB2D641EC22E69D4196 /* PBXContainerItemProxy */;
+		};
+		E0FDD94A85D17C03016E7D279D4684A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = F36DE44B3D71278FCE983F40C8E961BA /* WebViewJavascriptBridge */;
+			targetProxy = 25BF319E494E1A1A9EA47E8F80D914A8 /* PBXContainerItemProxy */;
+		};
+		F740621AB021011A7C087341777BDB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RBBAnimation;
+			target = C603EFE4AB12127AFC95861855B07DD5 /* RBBAnimation */;
+			targetProxy = 26BCFD611F4D2E797647D02A626A04C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		09B2024CF8ED78AA0E6516D1C097D20E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA15B611EA3F719B1C96FFA847F8E947 /* LMAlertView.xcconfig */;
+			baseConfigurationReference = 7B29A8BEEF8A776B43DBFC1A688DC9BA /* LMAlertView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LMAlertView/LMAlertView-prefix.pch";
@@ -593,7 +807,7 @@
 			};
 			name = Debug;
 		};
-		1F1471C2830BCA797FE0F09756A287E6 /* Release */ = {
+		2F9FB3260F7E354B4341A82436E7884E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
@@ -610,9 +824,27 @@
 			};
 			name = Release;
 		};
+		310162706B0DA788487BA6564A068EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414AF4DBC873A909061077F36E6F32E1 /* EDStarRating.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EDStarRating/EDStarRating-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		3CE42B25429E528B17FBA8931413B3C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67D6F3AEBFF4C7462F23BDD109D7B928 /* CAAnimationBlocks.xcconfig */;
+			baseConfigurationReference = 7F6B9091CB93C7FDB65D740BE40F3D66 /* CAAnimationBlocks.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CAAnimationBlocks/CAAnimationBlocks-prefix.pch";
@@ -630,7 +862,7 @@
 		};
 		42F617A03CAFCEACE3F0256814D1A67C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67D6F3AEBFF4C7462F23BDD109D7B928 /* CAAnimationBlocks.xcconfig */;
+			baseConfigurationReference = 7F6B9091CB93C7FDB65D740BE40F3D66 /* CAAnimationBlocks.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CAAnimationBlocks/CAAnimationBlocks-prefix.pch";
@@ -648,7 +880,7 @@
 		};
 		4682F12B202E94058861D87D50FEABBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 573AF906F26E1082AB5684E3E9D0D42D /* RBBAnimation.xcconfig */;
+			baseConfigurationReference = 07DE516E34DF74761E258E06DF98BADF /* RBBAnimation.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RBBAnimation/RBBAnimation-prefix.pch";
@@ -666,7 +898,7 @@
 		};
 		744CD3D9E1C65A72D44DB821AF386584 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 573AF906F26E1082AB5684E3E9D0D42D /* RBBAnimation.xcconfig */;
+			baseConfigurationReference = 07DE516E34DF74761E258E06DF98BADF /* RBBAnimation.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RBBAnimation/RBBAnimation-prefix.pch";
@@ -681,6 +913,24 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		7A06EE289CA2AA601B349DC404FFC3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414AF4DBC873A909061077F36E6F32E1 /* EDStarRating.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EDStarRating/EDStarRating-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -721,12 +971,48 @@
 			};
 			name = Debug;
 		};
+		AC2E880F1E158A54DC094FBAEF6D9478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE0DAFC61011FC0AA26985099D9680B /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		B3C639EE466F6AB829EDD82D937E9B25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA15B611EA3F719B1C96FFA847F8E947 /* LMAlertView.xcconfig */;
+			baseConfigurationReference = 7B29A8BEEF8A776B43DBFC1A688DC9BA /* LMAlertView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LMAlertView/LMAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B6DD56D30E44AADF6A07E87035C167B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE0DAFC61011FC0AA26985099D9680B /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -773,7 +1059,7 @@
 			};
 			name = Release;
 		};
-		D6870A4EAFC35074652362DA3A607C75 /* Debug */ = {
+		CD013B0C9D81B9FBD01D3908DEC164DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
@@ -793,11 +1079,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07A86C23A6DAEE266A09A86E83CA7105 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		0B59FAFABE0D8501F5580566C4E635B0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6870A4EAFC35074652362DA3A607C75 /* Debug */,
-				1F1471C2830BCA797FE0F09756A287E6 /* Release */,
+				CD013B0C9D81B9FBD01D3908DEC164DD /* Debug */,
+				2F9FB3260F7E354B4341A82436E7884E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -807,6 +1093,24 @@
 			buildConfigurations = (
 				8D1534490D941DCA47C62AC4314182AF /* Debug */,
 				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E0A7BF3930DFB9D9C9FC1DD90C7700 /* Build configuration list for PBXNativeTarget "EDStarRating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310162706B0DA788487BA6564A068EFD /* Debug */,
+				7A06EE289CA2AA601B349DC404FFC3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B42F2B2EFD21D81826CC16D117271F /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2E880F1E158A54DC094FBAEF6D9478 /* Debug */,
+				B6DD56D30E44AADF6A07E87035C167B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,16 +1,22 @@
 PODS:
   - CAAnimationBlocks (0.0.1)
+  - EDStarRating (1.1)
   - LMAlertView (1.1.0):
     - CAAnimationBlocks (~> 0.0.1)
     - RBBAnimation (~> 0.3.0)
   - RBBAnimation (0.3.0)
+  - WebViewJavascriptBridge (5.0.5)
 
 DEPENDENCIES:
+  - EDStarRating
   - LMAlertView
+  - WebViewJavascriptBridge (~> 5.0)
 
 SPEC CHECKSUMS:
   CAAnimationBlocks: 1aaca5fb6447a95d83b20cc786992956ef46e4ee
+  EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
   LMAlertView: fa4589ea2cb540b888636ff6739fc39b16ac1e4b
   RBBAnimation: cb6cb419f511434ce932f7d0fabf369612fafb4e
+  WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
 
 COCOAPODS: 0.39.0

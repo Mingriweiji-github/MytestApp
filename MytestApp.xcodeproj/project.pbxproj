@@ -128,9 +128,6 @@
 				579585A01C44D8210078E3E6 /* AppDelegate.m */,
 				579585A21C44D8210078E3E6 /* ViewController.h */,
 				579585A31C44D8210078E3E6 /* ViewController.m */,
-				577BE4AE1C843173005382F1 /* CustomAlertView.h */,
-				577BE4AF1C843173005382F1 /* CustomAlertView.m */,
-				577BE4A71C842AC1005382F1 /* CustomIOSAlertView */,
 				579585A51C44D8220078E3E6 /* Main.storyboard */,
 				579585A81C44D8220078E3E6 /* Assets.xcassets */,
 				579585AA1C44D8220078E3E6 /* LaunchScreen.storyboard */,
@@ -143,6 +140,8 @@
 		5795859C1C44D8210078E3E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57C9AD3E1C853CFC0051314A /* CustomAlertView */,
+				577BE4A71C842AC1005382F1 /* CustomIOSAlertView */,
 				5795859D1C44D8210078E3E6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -164,6 +163,15 @@
 				579585C31C44D8220078E3E6 /* Info.plist */,
 			);
 			path = MytestAppUITests;
+			sourceTree = "<group>";
+		};
+		57C9AD3E1C853CFC0051314A /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				577BE4AE1C843173005382F1 /* CustomAlertView.h */,
+				577BE4AF1C843173005382F1 /* CustomAlertView.m */,
+			);
+			name = CustomAlertView;
 			sourceTree = "<group>";
 		};
 		6858A3C3D076F4B265120C8E /* Frameworks */ = {

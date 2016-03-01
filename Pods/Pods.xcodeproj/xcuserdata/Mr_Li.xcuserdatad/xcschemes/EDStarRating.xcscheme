@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F2D4B7A6A7669F526B1DE418'
-               BlueprintName = 'CAAnimationBlocks'
+               BlueprintIdentifier = '584B67474419CAD704323F78'
+               BlueprintName = 'EDStarRating'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libCAAnimationBlocks.a'>
+               BuildableName = 'libEDStarRating.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -22,30 +22,17 @@
     // Do any additional setup after loading the view, typically from a nib.
     
 //    [self getCurrentTime];
-    
-//    NSDictionary *dic = @{@"name":@"张三的歌",@"age":@"24",@"height":@"178",@"weight":@"75"};
-//    
-//    NSLog(@"dic is %@",dic);
-//    
-//    for (NSString *str in dic) {
-//        
-//        NSLog(@"key is %@",str);
-//        NSLog(@"value is %@",[dic objectForKey:str]);
-//    }
-//    
-//    
-//    //h获取Mac地址和SSID
-//    [self getSSIDgetMACIP];
+
     
     //三种 自定义alertView
-    UIButton *alert = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    alert.backgroundColor = [UIColor clearColor];
-    [alert setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [alert setTitle:@"弹出提示框" forState:UIControlStateNormal];
-    
-    [alert addTarget:self action:@selector(customDialog) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:alert];
+//    UIButton *alert = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    alert.backgroundColor = [UIColor clearColor];
+//    [alert setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+//    [alert setTitle:@"弹出提示框" forState:UIControlStateNormal];
+//    
+//    [alert addTarget:self action:@selector(customDialog) forControlEvents:UIControlEventTouchUpInside];
+//    
+//    [self.view addSubview:alert];
     
     
     
@@ -85,16 +72,16 @@
      LMAlertView
      */
     
-    LMAlertView *alertView = [[LMAlertView alloc] initWithTitle:@"iOSDevTip"
-                                                        message:@"关注一下"
-                                                       delegate:nil
-                                              cancelButtonTitle:@"ok"
-                                              otherButtonTitles:nil];
-    
-    // Add your subviews here to customise
-    UIView *contentView = alertView.contentView;
-    
-    [alertView show];
+//    LMAlertView *alertView = [[LMAlertView alloc] initWithTitle:@"iOSDevTip"
+//                                                        message:@"关注一下"
+//                                                       delegate:nil
+//                                              cancelButtonTitle:@"ok"
+//                                              otherButtonTitles:nil];
+//    
+//    // Add your subviews here to customise
+//    UIView *contentView = alertView.contentView;
+//    
+//    [alertView show];
     
     
     
@@ -111,7 +98,7 @@
     
     
 }
-// - 代理方法
+// - alertView代理方法
 -(void)alertView:(CustomAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     NSLog(@"title is %@ ******** index is %ld",alertView.title,buttonIndex);
@@ -119,11 +106,12 @@
 }
 -(void)alertViewClosed:(CustomAlertView *)alertView
 {
-
+    NSLog(@"alertViewis %@",alertView);
 }
 
 -(void)willPresentCustomAlertView:(UIView *)alertView
 {
+    NSLog(@"alertViewis %@",alertView);
 
 }
 - (void)dealloc
@@ -143,33 +131,8 @@
 {
     NSLog(@"消息对象是 %@",notifi);
 }
-- (void)getSSIDgetMACIP
-{
-    NSString *ssid = @"Not Found";
-    NSString *macIp = @"Not Found";
-    
-    CFArrayRef myArray = CNCopySupportedInterfaces();
-    if (myArray != nil) {
-        CFDictionaryRef myDict = CNCopyCurrentNetworkInfo(CFArrayGetValueAtIndex(myArray, 0));
-        if (myDict != nil) {
-            NSDictionary *dict = (NSDictionary*)CFBridgingRelease(myDict);
-            
-            ssid = [dict valueForKey:@"SSID"];
-            macIp = [dict valueForKey:@"BSSID"];
-            
-            NSLog(@"ssid is %@",ssid);
-            NSLog(@"macIP is %@",macIp);
-            
-        }
-    }
-    UIAlertView *av = [[UIAlertView alloc] initWithTitle:ssid
-                                                 message:macIp
-                                                delegate:nil
-                                       cancelButtonTitle:nil
-                                       otherButtonTitles:@"OK", nil];
-    [av show];
 
-}
+
 - (void)getCurrentTime
 {
     UILabel *la = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
